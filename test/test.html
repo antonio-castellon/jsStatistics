@@ -1,0 +1,31 @@
+<html>
+<head>
+  <script src="../src/jsStatistics.fastmath.js" ></script>
+  <script src="../src/jsStatistics.ttest.js" ></script>
+  <script src="../src/jsStatistics.gamma.js" ></script>
+  <script src="../src/jsStatistics.beta.js" ></script>
+  <script src="../src/jsStatistics.statutils.js" ></script>
+</head>
+<body>
+Please, open the browser Console to see the results.
+  <script>
+  
+  var fArray1 = [0.958,1.545,2.121];
+  var fArray2 = [9.603,11.265,7.845];
+  
+  //var fArray1 = [ 0.147	,0.125	,0.128 ]; 
+  //var fArray2 = [0.099	,0.119	,0.091  ];
+  
+  //var fArray1 = [13,17,19,11,20,15,18,9,12,16];
+  //var fArray2 = [12,8,6,16,12,14,10,18,4,11];
+  
+  //var fArray1 = [34,52,17,45,5,29,31,6,52,64]; 
+  //var fArray2 = [12,8,6,16,12,14,10,18,4,11];
+
+  console.log(T_Test.ttest(fArray1,fArray2));
+ 
+ 
+  </script>
+</body>
+
+</html>
