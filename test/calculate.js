@@ -1,9 +1,7 @@
 /**
  * 
- * @author : Antonio Castellon ; antonio.castellon@contracted.pmi.com
+ * @author : Antonio Castellon ; antonio.castellon@gmail.com
  * 
- * Philip Morris R&D International - 2015
- *
  * http://en.wikipedia.org/wiki/Welch's_t_test
  * http://commons.apache.org/proper/commons-math/apidocs/org/apache/commons/math3/stat/inference/TTest.html
 **/
